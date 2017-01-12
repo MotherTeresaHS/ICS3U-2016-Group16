@@ -1,0 +1,341 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {957, 718}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{134, 128}, {150, 38}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "knowledge_label",
+          "frame" : "{{229, 268}, {150, 32}}",
+          "uuid" : "5BF936E5-52B5-4F0C-810E-91FFC99F575C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Knowledge",
+          "font_size" : 20,
+          "font_name" : "Avenir-Heavy"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{134, 175}, {150, 38}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 20,
+          "frame" : "{{229, 268}, {150, 32}}",
+          "uuid" : "5BF936E5-52B5-4F0C-810E-91FFC99F575C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Thinking",
+          "name" : "thinking_label",
+          "font_name" : "Avenir-Heavy"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{134, 223}, {150, 38}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 20,
+          "frame" : "{{229, 268}, {150, 32}}",
+          "uuid" : "5BF936E5-52B5-4F0C-810E-91FFC99F575C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Application",
+          "name" : "application_label",
+          "font_name" : "Avenir-Heavy"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{134, 269}, {150, 38}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 20,
+          "frame" : "{{229, 268}, {150, 32}}",
+          "uuid" : "5BF936E5-52B5-4F0C-810E-91FFC99F575C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Communication",
+          "name" : "communication_label",
+          "font_name" : "Avenir-Heavy"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{329, 128}, {83, 38}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "knowledge_textfield",
+          "frame" : "{{204, 268}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "6EF63F7A-168D-4D85-ACC7-0309D7CECB45",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{329, 175}, {83, 38}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{204, 268}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "6EF63F7A-168D-4D85-ACC7-0309D7CECB45",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "thinking_textfield",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{329, 223}, {83, 38}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{204, 268}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "6EF63F7A-168D-4D85-ACC7-0309D7CECB45",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "application_textfield",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{329, 269}, {83, 38}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{204, 268}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "6EF63F7A-168D-4D85-ACC7-0309D7CECB45",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "communication_textfield",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{541, 269}, {80, 38}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "border_width" : 2,
+          "frame" : "{{264, 268}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "EAE8703C-E6B0-4190-BCDE-B91022F1F997",
+          "class" : "Button",
+          "corner_radius" : 2,
+          "border_color" : "RGBA(0.000000,0.666667,1.000000,1.000000)",
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{637, 269}, {80, 38}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "clear_button_touch_up_inside",
+          "border_width" : 2,
+          "frame" : "{{264, 268}, {80, 32}}",
+          "title" : "Clear",
+          "uuid" : "EAE8703C-E6B0-4190-BCDE-B91022F1F997",
+          "class" : "Button",
+          "corner_radius" : 2,
+          "border_color" : "RGBA(0.000000,0.666667,1.000000,1.000000)",
+          "name" : "clear_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{565, 100}, {123, 68}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "label2",
+          "frame" : "{{229, 268}, {150, 32}}",
+          "uuid" : "C911D48D-45A5-4901-848E-1E1F6ABF5C60",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Approximate Average:",
+          "number_of_lines" : 2,
+          "font_size" : 18,
+          "font_name" : "Cousine-Bold"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{559, 175}, {129, 72}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "font_size" : 30,
+          "frame" : "{{229, 268}, {150, 32}}",
+          "uuid" : "C911D48D-45A5-4901-848E-1E1F6ABF5C60",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "corner_radius" : 2,
+          "name" : "average_label",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{134, 29}, {312, 84}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "name" : "message_label",
+          "font_size" : 20,
+          "frame" : "{{229, 268}, {150, 32}}",
+          "uuid" : "47A42139-C095-4171-A4C8-5A17B8683032",
+          "number_of_lines" : 4,
+          "corner_radius" : 1,
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Type your mark levels below based on the following categories:",
+          "font_name" : "CourierNewPS-ItalicMT"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{431, 128}, {37, 40}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 25,
+          "font_name" : "Futura-CondensedMedium",
+          "frame" : "{{404, 343}, {150, 32}}",
+          "uuid" : "546865F0-8EA2-4643-AFA1-F77CF9C3AC64",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "knowledge_alert_label",
+          "text_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{431, 176}, {37, 40}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 25,
+          "font_name" : "Futura-CondensedMedium",
+          "frame" : "{{404, 343}, {150, 32}}",
+          "uuid" : "546865F0-8EA2-4643-AFA1-F77CF9C3AC64",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "thinking_alert_label",
+          "text_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{431, 224}, {37, 40}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 25,
+          "font_name" : "Futura-CondensedMedium",
+          "frame" : "{{404, 343}, {150, 32}}",
+          "uuid" : "546865F0-8EA2-4643-AFA1-F77CF9C3AC64",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "application_alert_label",
+          "text_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{431, 272}, {37, 40}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 25,
+          "font_name" : "Futura-CondensedMedium",
+          "frame" : "{{404, 343}, {150, 32}}",
+          "uuid" : "546865F0-8EA2-4643-AFA1-F77CF9C3AC64",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "communication_alert_label",
+          "text_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)"
+        }
+      }
+    ],
+    "attributes" : {
+      "name" : "",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
