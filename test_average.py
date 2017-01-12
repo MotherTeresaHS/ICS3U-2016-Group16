@@ -167,4 +167,4 @@ def clear_button_touch_up_inside(sender):
   view['application_alert_label'].text = ""
 
 view = ui.load_view()
-view.present('fullscreen')	   	  	   
+ui.load_view('test_average').present(style = 'fullscreen', hide_title_bar = True)	   		   	  	   
