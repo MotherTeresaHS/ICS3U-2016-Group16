@@ -12,13 +12,13 @@
 
         ],
         "attributes" : {
-          "name" : "knowledge_label",
+          "font_size" : 20,
           "frame" : "{{229, 268}, {150, 32}}",
           "uuid" : "5BF936E5-52B5-4F0C-810E-91FFC99F575C",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Knowledge",
-          "font_size" : 20,
+          "name" : "knowledge_label",
           "font_name" : "Avenir-Heavy"
         }
       },
@@ -30,13 +30,13 @@
 
         ],
         "attributes" : {
-          "font_size" : 20,
+          "name" : "thinking_label",
           "frame" : "{{229, 268}, {150, 32}}",
           "uuid" : "5BF936E5-52B5-4F0C-810E-91FFC99F575C",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Thinking",
-          "name" : "thinking_label",
+          "font_size" : 20,
           "font_name" : "Avenir-Heavy"
         }
       },
@@ -48,13 +48,13 @@
 
         ],
         "attributes" : {
-          "font_size" : 20,
+          "name" : "application_label",
           "frame" : "{{229, 268}, {150, 32}}",
           "uuid" : "5BF936E5-52B5-4F0C-810E-91FFC99F575C",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Application",
-          "name" : "application_label",
+          "font_size" : 20,
           "font_name" : "Avenir-Heavy"
         }
       },
@@ -66,13 +66,13 @@
 
         ],
         "attributes" : {
-          "font_size" : 20,
+          "name" : "communication_label",
           "frame" : "{{229, 268}, {150, 32}}",
           "uuid" : "5BF936E5-52B5-4F0C-810E-91FFC99F575C",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Communication",
-          "name" : "communication_label",
+          "font_size" : 20,
           "font_name" : "Avenir-Heavy"
         }
       },
@@ -84,14 +84,15 @@
 
         ],
         "attributes" : {
-          "name" : "knowledge_textfield",
+          "font_size" : 17,
           "frame" : "{{204, 268}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "6EF63F7A-168D-4D85-ACC7-0309D7CECB45",
           "alignment" : "left",
+          "text" : "",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "knowledge_textfield",
           "font_name" : "<System>"
         }
       },
@@ -103,14 +104,14 @@
 
         ],
         "attributes" : {
-          "font_size" : 17,
+          "name" : "thinking_textfield",
           "frame" : "{{204, 268}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "6EF63F7A-168D-4D85-ACC7-0309D7CECB45",
           "alignment" : "left",
           "autocorrection_type" : "default",
-          "name" : "thinking_textfield",
+          "font_size" : 17,
           "font_name" : "<System>"
         }
       },
@@ -122,14 +123,14 @@
 
         ],
         "attributes" : {
-          "font_size" : 17,
+          "name" : "application_textfield",
           "frame" : "{{204, 268}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "6EF63F7A-168D-4D85-ACC7-0309D7CECB45",
           "alignment" : "left",
           "autocorrection_type" : "default",
-          "name" : "application_textfield",
+          "font_size" : 17,
           "font_name" : "<System>"
         }
       },
@@ -141,14 +142,14 @@
 
         ],
         "attributes" : {
-          "font_size" : 17,
+          "name" : "communication_textfield",
           "frame" : "{{204, 268}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "6EF63F7A-168D-4D85-ACC7-0309D7CECB45",
           "alignment" : "left",
           "autocorrection_type" : "default",
-          "name" : "communication_textfield",
+          "font_size" : 17,
           "font_name" : "<System>"
         }
       },
@@ -200,14 +201,14 @@
 
         ],
         "attributes" : {
-          "name" : "label2",
+          "font_size" : 18,
           "frame" : "{{229, 268}, {150, 32}}",
           "uuid" : "C911D48D-45A5-4901-848E-1E1F6ABF5C60",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Approximate Average:",
           "number_of_lines" : 2,
-          "font_size" : 18,
+          "name" : "label2",
           "font_name" : "Cousine-Bold"
         }
       },
@@ -220,14 +221,14 @@
         ],
         "attributes" : {
           "border_width" : 2,
-          "font_size" : 30,
+          "name" : "average_label",
           "frame" : "{{229, 268}, {150, 32}}",
           "uuid" : "C911D48D-45A5-4901-848E-1E1F6ABF5C60",
           "class" : "Label",
           "alignment" : "center",
           "text" : "",
           "corner_radius" : 2,
-          "name" : "average_label",
+          "font_size" : 30,
           "font_name" : "<System>"
         }
       },
@@ -244,11 +245,11 @@
           "font_size" : 20,
           "frame" : "{{229, 268}, {150, 32}}",
           "uuid" : "47A42139-C095-4171-A4C8-5A17B8683032",
+          "text" : "Type your mark levels below based on the following categories:",
           "number_of_lines" : 4,
           "corner_radius" : 1,
           "class" : "Label",
           "alignment" : "center",
-          "text" : "Type your mark levels below based on the following categories:",
           "font_name" : "CourierNewPS-ItalicMT"
         }
       },
@@ -310,7 +311,7 @@
         }
       },
       {
-        "selected" : true,
+        "selected" : false,
         "frame" : "{{431, 272}, {37, 40}}",
         "class" : "Label",
         "nodes" : [
@@ -327,14 +328,35 @@
           "name" : "communication_alert_label",
           "text_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)"
         }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{474, 46}, {278, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "font_size" : 18,
+          "font_name" : "<System>",
+          "frame" : "{{404, 343}, {150, 32}}",
+          "border_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "1FC189EA-BB05-4E7C-B12F-D427EE34576B",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "wrong_label",
+          "corner_radius" : 1
+        }
       }
     ],
     "attributes" : {
-      "name" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "enabled" : true,
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "flex" : ""
     }
   }
