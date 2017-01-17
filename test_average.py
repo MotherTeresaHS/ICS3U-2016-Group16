@@ -36,7 +36,7 @@ def calculate_button_touch_up_inside(sender):
 	   	elif knowledge == "1-":
 	   		knowledge == 50
 	   	elif knowledge == "R":
-	   		knowledge == 30
+	   		knowledge = 30
 	   	elif knowledge == "NE":
 	   	  knowledge = 0
   else:
@@ -71,7 +71,7 @@ def calculate_button_touch_up_inside(sender):
 	   	elif thinking == "1-":
 	   		thinking = 50
 	   	elif thinking == "R":
-	   		thinking == 30
+	   		thinking = 30
 	   	elif thinking == "NE":
 	   	  thinking = 0
   else:
@@ -106,7 +106,7 @@ def calculate_button_touch_up_inside(sender):
 	   	elif application == "1-":
 	   	  application = 50
 	   	elif application == "R":
-	   		application == 30
+	   		application = 30
 	   	elif application == "NE":
 	   	  application = 0
   else:
@@ -141,7 +141,7 @@ def calculate_button_touch_up_inside(sender):
 	   	elif communication == "1-":
 	   	  communication = 50
 	   	elif communication == "R":
-	   		communication == 30
+	   		communication = 30
 	   	elif communication == "NE":
 	   	  communication = 0
   else:
